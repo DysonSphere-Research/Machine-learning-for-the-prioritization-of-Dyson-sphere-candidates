@@ -4,29 +4,16 @@ set -euo pipefail
 # source .venv/bin/activate
 
 # 1) Default: fused only (Dyson weight 0.50, minmax)
-python3 isolation_forest_pipeline.py \ --data-dir ./data \ --out-dir ./results
+py isolation_forest_pipeline.py \ --data-dir ./data \ --out-dir ./results
 
 # 2) Dyson + Normal
-python3 isolation_forest_pipeline.py \
-  --data-dir ./data \
-  --out-dir ./results \
-  --emit dyson,normal
+py isolation_forest_pipeline.py --data-dir ./data --out-dir ./results --emit dyson,normal
 
 # 3) Dyson + Normal + fused (two fused weights)
-python3 isolation_forest_pipeline.py \
-  --data-dir ./data \
-  --out-dir ./results \
-  --emit dyson,normal,fused \
-  --fuse-weights 0.9,0.7
+py isolation_forest_pipeline.py --data-dir ./data --out-dir ./results --emit dyson,normal,fused --fuse-weights 0.9,0.7
 
 # 4) Fused only, with metrics (Dyson positives)
-python3 isolation_forest_pipeline.py \
-  --data-dir ./data \
-  --out-dir ./results \
-  --emit fused \
-  --fuse-weights 0.7 \
-  --emit-metrics \
-  --metrics-target dyson
+py isolation_forest_pipeline.py --data-dir ./data --out-dir ./results --emit fused --fuse-weights 0.7 --emit-metrics  --metrics-target dyson
 
 # 5) Handle duplicate IDs by keeping the best score per ID
 python3 isolation_forest_pipeline.py \
@@ -34,3 +21,4 @@ python3 isolation_forest_pipeline.py \
   --out-dir ./results \
   --emit fused \
   --on-duplicate drop-keep-best
+
