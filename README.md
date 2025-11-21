@@ -1,4 +1,4 @@
-# Machine Learning Approach to Dyson Sphere Candidate Detection
+# Machine learning for the prioritization of Dyson sphere candidates
 
 *(Anonymous repository for double-blind peer review)*
 
