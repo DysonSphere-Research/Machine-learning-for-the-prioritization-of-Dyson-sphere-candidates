@@ -6,11 +6,7 @@ training regimes (Dyson-centric and Normal-centric) and a **weighted fusion** of
 their rankings into a single, unified list. You can also choose the **scoring method**
 used by the ProtoNet (`probability`, `distance`, `cosine`, or `all`).
 
-Developed in the context of:
-
-> M. De Carolis, P. Mignone, *Dyson Sphere detection with Machine Learning* (preprint / under review).
-
-Please cite both this repository and the above article if you use the code.
+ 
 
 
 ## 🔧 Installation
@@ -185,10 +181,7 @@ All files are written to `--out-dir`. Examples:
 - **Duplicates**: enforce unique `ID` before fusion with `--on-duplicate` policy.
 
 
-## 📜 License
-
-MIT License (see `LICENSE`).
-
+ 
 
 ## ✨ Citation
 
@@ -196,4 +189,4 @@ When using this code, please cite:
 - Snell, Swersky, Zemel, “Prototypical Networks for Few-shot Learning,” *NeurIPS 2017*  
 - Pedregosa et al., “Scikit-learn: Machine Learning in Python,” *JMLR 2011*  
 - Paszke et al., “PyTorch,” *NeurIPS 2019*  
-- M. De Carolis, P. Mignone, *Dyson Sphere detection with Machine Learning* (preprint / under review)
+- Autore_1, Autore_2, *Machine learning for the prioritization of Dyson sphere candidates* (preprint / under review)
