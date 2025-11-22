@@ -180,13 +180,4 @@ All files are written to `--out-dir`. Examples:
 - **Fusion**: `fused = α·norm(Dyson) + (1−α)·(1−norm(Normal))`, with `norm ∈ {minmax, zscore, none}`.
 - **Duplicates**: enforce unique `ID` before fusion with `--on-duplicate` policy.
 
-
  
-
-## ✨ Citation
-
-When using this code, please cite:
-- Snell, Swersky, Zemel, “Prototypical Networks for Few-shot Learning,” *NeurIPS 2017*  
-- Pedregosa et al., “Scikit-learn: Machine Learning in Python,” *JMLR 2011*  
-- Paszke et al., “PyTorch,” *NeurIPS 2019*  
-- Autore_1, Autore_2, *Machine learning for the prioritization of Dyson sphere candidates* (preprint / under review)
