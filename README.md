@@ -58,8 +58,8 @@ Each pipeline has its own dedicated documentation in this repository.
 The `data/` directory must contain:
 
     data/
-      ├─ train.csv          # Dyson-centric support set
-      ├─ trainNormal.csv    # Normal-centric support set
+      ├─ train.csv          # Dyson support set
+      ├─ trainNormal.csv    # Normal support set
       ├─ test_normal.csv    # Evaluation set
       ├─ num_ds.txt         # number of Dyson spies at top of test_normal.csv
       ├─ numNorm.txt        # number of Normal spies immediately after Dyson block
@@ -84,8 +84,8 @@ These are used exclusively for internal validation.
 
 Both pipelines:
 
-1.  Train a **Dyson-centric model**
-2.  Train a **Normal-centric model**
+1.  Train a **Dyson model**
+2.  Train a **Normal model**
 3.  Generate two independent rankings
 4.  Optionally compute **Precision/Recall/F1@k** metrics
 
