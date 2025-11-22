@@ -164,10 +164,4 @@ Results will be written to `./results` (created if missing).
 
 ---
  
-
-## ✨ Citation
-
-When using this code, please cite:
-- Pedregosa et al., *Journal of Machine Learning Research*, 2011 (scikit-learn)  
-- Liu, Ting, Zhou, *ICDM 2008*, “Isolation Forest”  
-- Autore_1, Autore_2, *Machine learning for the prioritization of Dyson sphere candidates* (preprint / under review)
+ 
