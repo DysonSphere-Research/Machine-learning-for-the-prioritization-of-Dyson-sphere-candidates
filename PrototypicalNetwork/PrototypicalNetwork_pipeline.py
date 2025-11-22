@@ -17,8 +17,8 @@ Usage (examples):
       --emit dyson --proto-method probability
 
 Inputs in --data-dir:
-  - train.csv           (Dyson-centered support set)     columns: source_id, <numeric features...>
-  - trainNormal.csv     (Normal-centered support set)    columns: source_id, <numeric features...>
+  - train.csv           (Dyson support set)     columns: source_id, <numeric features...>
+  - trainNormal.csv     (Normal support set)    columns: source_id, <numeric features...>
   - test_normal.csv     (evaluation set)                 columns: source_id, <numeric features...>
   - num_ds.txt          (first integer = number of Dyson spies at top of test)
   - numNorm.txt         (first integer = number of Normal spies after the Dyson block; for metrics target=normal)
@@ -547,5 +547,6 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
 
 
