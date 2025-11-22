@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Prototypical Network — Dyson-centric / Normal-centric with Weighted Fusion (single-run)
+Prototypical Network
 
 Usage (examples):
   # Run both regimes and save only the fused ranking with default weight (0.5)
@@ -547,4 +547,5 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
 
