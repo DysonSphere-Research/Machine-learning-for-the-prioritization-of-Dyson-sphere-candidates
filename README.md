@@ -1,7 +1,5 @@
 # Machine learning for the prioritization of Dyson sphere candidates
 
-*(Anonymous repository for double-blind peer review)*
-
 This repository contains the complete codebase, documentation, and 
 experimental framework used to develop a machine-learning approach for 
 prioritizing **Dyson sphere candidates** using Gaia DR3 photometry.
@@ -22,8 +20,6 @@ manuscript.
 This repository accompanies a manuscript **currently prepared for
 submission** to\
 **Expert Systems with Applications (Elsevier)**.
-The repository is anonymized to comply with **double-blind peer-review**
-guidelines.
 
 ------------------------------------------------------------------------
 
@@ -165,4 +161,3 @@ No permission is granted for reuse, distribution, or modification.
 # ✨ Citation
 
 Citation details will be added **after peer-review and acceptance**.\
-During review, please cite this repository anonymously.
